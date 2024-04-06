@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutMe from './items/AboutMe'
 import './Hub.css'
 
 export default function Hub() {
@@ -10,8 +11,8 @@ export default function Hub() {
           </svg>
       </div>
 
-      <div className = "about-me">
-        <h1>about me</h1>
+      <div className="hub-items">
+        <AboutMe/>
       </div>
     </div>
     
