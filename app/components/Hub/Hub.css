@@ -4,5 +4,53 @@
 }
 
 .hub-container {
-    background-color: #050a11;
+    background-color: #24242b;
+    position: relative;
+}
+
+.hub-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+.custom-shape-divider-bottom-1712435541 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1712435541 svg {
+    display: block;
+    width: calc(198% + 1.3px);
+    height: 192px;
+}
+
+.custom-shape-divider-bottom-1712435541 .shape-fill {
+    fill: #000000;
+}
+
+.custom-shape-divider-top-1712435652 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1712435652 svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 226px;
+}
+
+.custom-shape-divider-top-1712435652 .shape-fill {
+    fill: #000000;
 }
